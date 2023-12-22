@@ -1,0 +1,92 @@
+*.
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('contact.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: rgba(128, 128, 128, 0.8);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+nav li {
+  list-style-type: none;
+}
+h1 {
+  font-family: courier,arial,helvetica;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  width: 90%;
+  margin: 
+  border: 2px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-right: 5px;
+  animation: typing 5s steps(10000) ,
+                  blink 0.3s infinite;
+  box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+ webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+ moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+}
+
+.main-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+ webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+ moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.75);
+}
+
+p {
+  color: black;
+}
+
+footer {
+  background-color: rgba(128, 128, 128, 0.8);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer p {
+  border: none;
+  text-decoration: none
+}
+
+.footer-a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-a:hover {
+  background-color: burlywood;
+}
+
+  @keyframes typing {
+      0% {
+        width: 0;
+        visibility: hidden;
+      }
+      100% {
+        width: 0 auto;
+        max-height: 100%
+      }
+    }
+
